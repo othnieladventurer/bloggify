@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bloggify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg py-4">
+      <!--container-->
+      <div class="container">
+        <!--Navbar logo -->
+        <a href="#" class="navbar-brand">Bloggify</a>
+        <!--Navbar logo -->
+
+        <!--Navbar button -->
+        <button class="btn navbar-toggle d-block d-lg-none" data-bs-toggle="collapse" data-bs-target="#navbarMobile">
+          <span class="navbar toggler-icon">
+            <i class="bi bi-list " style="font-size: 35px; font-weight: bold;"></i>
+          </span>
+        </button>
+        <!--Navbar button -->
+
+        <!--Navbar links -->
+        <div class="collapse navbar-collapse " id="navbarMobile">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item me-3"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item me-3"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item me-3"><a href="" class="nav-link active">Blog</a></li>
+            
+
+            <li class="nav-item dropdown">
+              <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+              <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">Action</a></li>
+                <li><a href="" class="dropdown-item">Do another link</a></li>
+                <li><a href="" class="dropdown-item">Another action</a></li>
+              </ul>
+            
+            </li>
+            <li class="nav-item me-3"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <!--Navbar links -->
+      </div>
+        <!--container-->
+    </nav>
+    <!--navbar-->
+
+    <!-- header -->
+    <header class="container mb-4 mb-lg-5">
+      <!--Slide container-->
+      <div class="header-slider text-center">
+        <!--Slide-->
+        <div class="card boder-0 rounded-4 overflow-hidden">
+          <img src="assets/images/header-img-1.jpg" alt="header image" class="card-img parallax-img">
+          <!--fles container-->
+          <div class="d-flex flex-column justify-content-center align-items-center card-img-overlay bg-dark bg-opacity-25">
+            <div class="w-75">
+              <label for="" class="inline-block px-4 py-2 text-white bg-dark rounded-pill">
+                Blog
+              </label>
+              <h1 class="mt-2 card-title">
+                Transforming Lives with Artificial Intelligence
+              </h1>
+
+              <p class="card-text">
+                Artificial intelligence is enhancing productivity and transforming everyday 
+                experiences. From smart homes to healthcare innovations, 
+                discover how AI is reshaping our world.
+              </p>
+            </div>
+          </div>
+          <!--fles container-->
+        </div>
+        <!--Slider -->
+
+
+
+        <!--Slide 2-->
+        <div class="card boder-0 rounded-4 overflow-hidden">
+          <img src="assets/images/header-img-2.jpg" alt="header image" class="card-img parallax-img">
+          <!--fles container-->
+          <div class="d-flex flex-column justify-content-center align-items-center card-img-overlay bg-dark bg-opacity-25">
+            <div class="w-75">
+              <label for="" class="inline-block px-4 py-2 text-white bg-dark rounded-pill">
+                Blog
+              </label>
+              <h1 class="mt-2 card-title text-white">
+                The Future of Connectivity
+              </h1>
+
+              <p class="card-text text-white">
+                Explore the power of next-generation connectivity and its potential to 
+                revolutionize communication, business, and entertainment.
+              </p>
+            </div>
+          </div>
+          <!--fles container-->
+        </div>
+        <!--Slider-->
+ 
+      
+
+
+
+        <!-- Slide 3-->
+        <div class="card boder-0 rounded-4 overflow-hidden">
+          <img src="assets/images/header-img-3.jpg" alt="header image" class="card-img parallax-img">
+          <!--fles container-->
+          <div class="d-flex flex-column justify-content-center align-items-center card-img-overlay bg-dark bg-opacity-25">
+            <div class="w-75">
+              <label for="" class="inline-block px-4 py-2 text-white bg-dark rounded-pill">
+                Blog
+              </label>
+              <h1 class="mt-2 card-title text-white">
+                Sustainable Tech Innovations
+              </h1>
+
+              <p class="card-text text-white">
+                Learn about sustainable technology practices driving eco-friendly solutions in the fast-paced digital age.
+              </p>
+            </div>
+          </div>
+          <!--fles container-->
+        </div>
+        <!--Slider 3-->
+      </div>
+      <!--Slide container-->
+    </header>
+    <!-- header -->
+
+
+    <!--main -->
+    <main class="container">
+      <!--Search and filter-->
+      <div class="mb-4 mb-lg-5">
+        <!--flex container-->
+        <div class="d-flex justify-content-center justify-content-lg-between align-items-center flex-wrapr gap-4">
+          <!--Search bar-->
+          <div class="input-group w-sm-100 w-lg-50">
+            <span class="input-group-text bg-dark text-white">
+              <i class="bi bi-search"></i>
+            </span>
+            <input type="text" class="blog-search form-control" placeholder="Search for topic">
+          </div>
+          <!--Search bar-->
+
+          <!--filter button-->
+          <nav class="blog-filters d-flex flex-wrap justify-content-center gap-3">
+            <button class="btn-filter is-checked px-4 py-2 border-0 rounded-pill"
+             data-filter="*">
+              All
+            </button>
+
+            <button class="btn-filter  px-4 py-2 border-0 rounded-pill"
+            data-filter=".workspace">
+             Workspace
+           </button>
+
+           <button class="btn-filter  px-4 py-2 border-0 rounded-pill"
+           data-filter=".education">
+            Education
+          </button>
+
+
+          <button class="btn-filter  px-4 py-2 border-0 rounded-pill"
+          data-filter=".technology">
+           Technology
+         </button>
+          </nav>
+          <!--filter button-->
+        </div>
+      </div>
+      <!-- Search and filter -->
+
+
+       <!-- Blog list -->
+        <section class="mb-4 mb-lg-5">
+          <!--row-->
+          <div class="blog-container row g-4">
+            <!--Column-->
+            <div class="blog-item workspace col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-1.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">Top 5 Emerging Technologies That...</h4>
+                    <p class="card-text text-secondary">
+                      Emerging technologies like AI, quantum computing, 5G, green energy solutions, 
+                      and augmented reality...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                 
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--Column-->
+
+
+
+            <div class="blog-item workspace col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-2.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">How Artificial Intelligence is Transforming...</h4>
+                    <p class="card-text text-secondary">
+                      AI is seamlessly integrating into our routines, 
+                      from personalized shopping recommendations and smart...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--Column-->
+
+
+
+
+            <div class="blog-item workspace col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-3.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">Cybersecurity Trends in 2024 Education</h4>
+                    <p class="card-text text-secondary">
+                      With cyber threats growing, trends like AI-driven defense systems,
+                       zero-trust architecture, and biometric...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--Column-->
+
+
+
+
+
+
+            <!--Column row block 2-->
+            <div class="blog-item education col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-4.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">How Cloud Computing is Revolutionizing Small Businesses</h4>
+                    <p class="card-text text-secondary">
+                      Cloud computing offers small businesses scalable storage,
+                       enhanced collaboration, and cost savings....
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                 
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--Column-->
+
+
+
+            <div class="blog-item education col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-5.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">Exploring the Ethical Dilemmas of AI-Powered Decisions</h4>
+                    <p class="card-text text-secondary">
+                      AI's role in decision-making raises ethical concerns about bias, accountability, and privacy. Addressing these challenges...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--Column-->
+
+
+
+            <!--Column-->
+            <div class="blog-item education col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-6.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">10 Must-Have Tools for Aspiring Developers in 2024 technology</h4>
+                    <p class="card-text text-secondary">
+                      Aspiring developers need tools like GitHub, VS Code, Docker,
+                       and Figma to streamline coding, collaboration, and design. ...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--Column-->
+
+
+            <!--Column block 3-->
+            <div class="blog-item technology col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-7.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">The Role of Blockchain Beyond Cryptocurrencies</h4>
+                    <p class="card-text text-secondary">
+                      Blockchain’s decentralized ledger extends beyond finance to revolutionize
+                       industries like supply chain, healthcare, and real estate....
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--Column-->
+
+            <div class="blog-item technology col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-8.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">10 Must-Have Tools for Aspiring Developers in 2024 technology</h4>
+                    <p class="card-text text-secondary">
+                      Aspiring developers need tools like GitHub, VS Code, Docker,
+                       and Figma to streamline coding, collaboration, and design. ...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--Column-->
+
+
+
+            <div class="blog-item technology col-md-6 col-lg-4">
+              <article class="card border-0">
+                <img src="assets/images/blog-img-9.jpg" 
+                alt="blog image"
+                 class="img-top rounded-4">
+                 <div class="card-body">
+                  <div class="pb-4 border-bottom border-dark-subtle">
+                    <h4 class="card-title fw-bold">The Future of Quantum Computing: What You Need to Know</h4>
+                    <p class="card-text text-secondary">
+                      Aspiring developers need tools like GitHub, VS Code, Docker,
+                       and Figma to streamline coding, collaboration, and design. ...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center mt-3">
+                  <small class="me-4">
+                    <i class="bi bi-calendar"></i>
+                    <span class="text-secondary">2024/08/12</span>
+                  </small>
+
+                  <small>
+                    <i class="bi bi-eye-fill"></i>
+                    <span class="text-secondary">10.2k views</span>
+                  </small>
+                </div>
+                <a href="" class="btn btn-outline-dark rounded-pill mt-4 w-100 py-3">
+                  Read more
+                </a>
+              </article>
+            </div>
+            <!--/Column-->
+          </div>
+          
+        </section>
+       <!-- /Blog list -->
+      <!--featured blog & author-->
+      <section class="mb-4 mb-lg-5">
+        <!-- Row -->
+        <div class="row g-4">
+          <!--column-->
+          <div class="col-12">
+            <div class="p-4 p-lg-5 bg-dark rounded-4">
+              <!--flex container-->
+              <div class="d-flex flex-column align-items-center">
+                <label for="" class="bg-light px-4 py-2 rounded-pill">featured</label>
+                <!--Nested row-->
+                <div class="row justify-content-center align-items-center g-4 mt-4">
+                  <!--column-->
+                  <div class="col-md-6 order-2 order-md-1 text-white">
+                    <h2 class="fw-bold">
+                      Embrace the Future: The Rise of Smart Homes
+                    </h2>
+
+                    <p class="text-white-50">
+                      Discover how smart home technology is revolutionizing everyday life. From automated lighting to advanced security systems, experience unparalleled convenience and peace of mind.
+                    </p>
+
+                    <a href="#" class="btn btn-light px-4 py-2 rounded-pill">Explore more</a>
+                  </div>
+                  <!--/column-->
+
+                  <!--column-->
+                  <div class="col-md-6 order-1 order-md-2">
+                    <img src="assets/images/blog-img-10.jpg" alt="" class="img-fluid rounded-4">
+                  </div>
+                   <!--/column-->
+                </div>
+                <!--Nested row-->
+              </div>
+              <!--/flex container-->
+            </div>
+          </div>
+           <!--/column-->
+
+          <!--column-->
+          <div class="col-md-6">
+            <div class="px-5 py-4 bg-dark-subtle rounded-4">
+              <div class="d-inline-block p-3 bg-dark bg-opacity-25">
+                <img src="assets/images/profile-picture-1.jpg" alt="featured author image" 
+                style="width: 100%; height: 100px; object-fit: cover;">
+              </div>
+              <div class="mt-2">
+                <h4>Janet Kyle</h4>
+                <p class="text-secondary">
+                  Lorem ipsum dolor sit amet, consectetur
+                   adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </p>
+
+                <a href="" class="link-dark link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+                  View post
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--/column-->
+
+          <!--column-->
+          <div class="col-md-6">
+            <div class="px-5 py-4 bg-dark-subtle rounded-4">
+              <div class="d-inline-block p-3 bg-dark bg-opacity-25">
+                <img src="assets/images/profile-picture-2.jpg" alt="featured author image" 
+                style="width: 100%; height: 100px; object-fit: cover;">
+              </div>
+              <div class="mt-2">
+                <h4>Oliver Samuels</h4>
+                <p class="text-secondary">
+                  Lorem ipsum dolor sit amet, consectetur
+                   adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam,
+                </p>
+
+                <a href="" class="link-dark link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+                  View post
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--/column-->
+           
+        </div>
+      </section>
+      <!--/featured blog & author-->
+      <!--Newsletter subscription-->
+      <section class="mb-4 mb-lg-5">
+        <div class="p-4 p-lg-5 bg-dark bg-opacity-50 rounded-4">
+          <!--row-->
+          <div class="row align-items-center g-0 g-lg-4 text-white">
+            <!--Column-->
+            <div class="col-md-6">
+              <h2 class="fw-old">
+                Subscribe for new content
+              </h2>
+
+              <p class="text-white-50">
+                Lorem ipsum dolor sit amet, consectetur
+                 adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua. Ut enim ad minim veniam,
+              </p>
+            </div>
+            <!--/Column-->
+
+            <!--Column-->
+            <div class="col-md-6 ">
+              <form action="">
+                <div class="input-group">
+                  <input type="email" name="email" class="form-control py-3 rounded-start-pill" placeholder="Enter email">
+                  <button type="submit" class="btn btn-dark rounded-end-pill">Subscribe</button>
+                </div>
+              </form>
+            </div>
+            <!--/Column-->
+          </div>
+          <!--row-->
+        </div>
+      </section>
+      <!--/Newsletter subscription-->
+    </main>
+    <!--main -->
+
+    <!--footer-->
+    <footer>
+      <p class="text-center">Bloggify &copy: 2024. All Rights Reserved</p>
+    </footer>
+    <!--/footer-->
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Slick Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- SImple paralax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-parallax-js/5.1.0/simpleParallax.min.js" integrity="sha512-khjfLQJMdSxVDao74mWrUtczdSTskxeSQXJtnQCpoeqMmuFcBvoYQDRTgAa+pCbQ6vpdk8MYE8uGVThBkT3+MA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Isotope -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!--Main js-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
