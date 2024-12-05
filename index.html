@@ -20,7 +20,7 @@
       <!--container-->
       <div class="container">
         <!--Navbar logo -->
-        <a href="#" class="navbar-brand">Bloggify</a>
+        <a href="/" class="navbar-brand">Bloggify</a>
         <!--Navbar logo -->
 
         <!--Navbar button -->
@@ -34,7 +34,7 @@
         <!--Navbar links -->
         <div class="collapse navbar-collapse " id="navbarMobile">
           <ul class="navbar-nav ms-auto text-center">
-            <li class="nav-item me-3"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item me-3"><a href="/" class="nav-link">Home</a></li>
             <li class="nav-item me-3"><a href="about.html" class="nav-link">About</a></li>
             <li class="nav-item me-3"><a href="" class="nav-link active">Blog</a></li>
             
@@ -146,42 +146,42 @@
       <!--Search and filter-->
       <div class="mb-4 mb-lg-5">
         <!--flex container-->
-        <div class="d-flex justify-content-center justify-content-lg-between align-items-center flex-wrapr gap-4">
+        <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center gap-4">
           <!--Search bar-->
-          <div class="input-group w-sm-100 w-lg-50">
+          <div class="input-group w-100 w-lg-50">
             <span class="input-group-text bg-dark text-white">
               <i class="bi bi-search"></i>
             </span>
             <input type="text" class="blog-search form-control" placeholder="Search for topic">
           </div>
           <!--Search bar-->
-
+      
           <!--filter button-->
-          <nav class="blog-filters d-flex flex-wrap justify-content-center gap-3">
+          <nav class="blog-filters d-flex flex-wrap justify-content-center justify-content-lg-between gap-3 w-100 w-lg-auto">
             <button class="btn-filter is-checked px-4 py-2 border-0 rounded-pill"
              data-filter="*">
               All
             </button>
-
-            <button class="btn-filter  px-4 py-2 border-0 rounded-pill"
+      
+            <button class="btn-filter px-4 py-2 border-0 rounded-pill"
             data-filter=".workspace">
-             Workspace
-           </button>
-
-           <button class="btn-filter  px-4 py-2 border-0 rounded-pill"
-           data-filter=".education">
-            Education
-          </button>
-
-
-          <button class="btn-filter  px-4 py-2 border-0 rounded-pill"
-          data-filter=".technology">
-           Technology
-         </button>
+              Workspace
+            </button>
+      
+            <button class="btn-filter px-4 py-2 border-0 rounded-pill"
+            data-filter=".education">
+              Education
+            </button>
+      
+            <button class="btn-filter px-4 py-2 border-0 rounded-pill"
+              data-filter=".technology">
+              Technology
+            </button>
           </nav>
           <!--filter button-->
         </div>
       </div>
+      
       <!-- Search and filter -->
 
 
